@@ -7,6 +7,6 @@ app.get("/",(req,res)=>{
     res.send("Welcome 1")
 })
 
-app.listen(8000,async()=>{
+app.listen(8080,async()=>{
     console.log("port is running at 8000")
 })

@@ -3,10 +3,10 @@ const app = express()
 app.use(express.json())
 
 
-app.get("/",(req,res)=>{
+app.get("/home",(req,res)=>{
     res.send("Welcome 1")
 })
 
-app.listen(443,async()=>{
-    console.log("port is running at 443")
+app.listen(8080,()=>{
+    console.log("port is running at 8080")
 })
